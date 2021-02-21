@@ -27,4 +27,12 @@ public class Enemy : MonoBehaviour
             slider.value = slider.value - 10 * Time.deltaTime;
         }
     }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if(other.tag == "Arrow")
+        {
+            Destroy(this.gameObject);
+        }
+    }
 }
