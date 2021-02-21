@@ -67,6 +67,7 @@
     <Compile Include="Assets\BasicBandit\DemoSceneBasicBandit\Scripts\ButtonFunction.cs" />
     <Compile Include="Assets\BasicBandit\DemoSceneBasicBandit\Scripts\MovementCamera.cs" />
     <Compile Include="Assets\DangerZone.cs" />
+    <Compile Include="Assets\DayNight.cs" />
     <Compile Include="Assets\Enemy.cs" />
     <Compile Include="Assets\LevelReload.cs" />
     <Compile Include="Assets\LoadLevel.cs" />
